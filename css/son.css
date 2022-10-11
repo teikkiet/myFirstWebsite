@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(235, 235, 235);
+    font-family: tahoma
+}
+.tong{
+    background: rgb(248, 248, 248);
+    width: 1020px;
+    margin: auto;
+}
+.logo{
+    height: 100px;
+    /* background: gray; */
+}
+.logo .go{
+    float: left;
+    padding-left: 0px;
+    padding-top: 25px;
+    width: 100px;
+}
+.logo .get{
+    width: 660px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: auto;
+}
+.logo form{
+    float: right;
+    padding-top: 35px;
+}
+button{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    border-radius: 5px 0;
+    font-size: x-smaller;
+}
+.menu{
+    height: 35px;
+    background: #272f54;
+    position: sticky;
+    top: 10px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    padding-left: 100px;
+    line-height: 35px;
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu li a:hover{
+    color: green;
+}
+.submenu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 150px;
+    position: relative;
+    display: none;
+}
+footer{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: rgb(166, 167, 165);
+    margin-top: 85px;
+}
+.content{
+    padding-top: 10px;
+}
+.content img{
+    margin-top: 3px;
+    width: 100%;
+}
+.menu>li:hover>.submenu{
+    display: block;
+}
+.submenu{
+    margin: 0 -100px;
+    padding: 0;
+    border-radius: 5px;
+    list-style: none;
+    width: 150px;
+    position: relative;
+    display: none;
+}
+.submenu>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 0px;
+    text-decoration: none;
+    font-variant: normal;
+    padding-left: 25px;
+    color: darkblue;
+    font-size: larger;
+    text-decoration: double;
+}
+.submenu>li>a:hover{
+    color: green;
+    font-weight: bolder;
+}
+.new1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 304px;
+    height: 120px;
+    border: 0.5px solid none;
+    float: left;
+    margin-right: 30px;
+}
+.new1 h4{
+    padding-left: 25px;
+    padding-top: 10px;
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.new1 p{
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.new a{
+    text-decoration: none;
+}
+.new a:hover{
+    color: greenyellow;
+}
+.footer-links{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links ul{
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-links h6{
+    margin: -30px 0;
+}
